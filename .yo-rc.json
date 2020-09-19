@@ -1,0 +1,9 @@
+{
+  "generator-igemwiki": {
+    "year": "2020",
+    "teamName": "Team:Stuttgart",
+    "repo": "https://github.com/FabioSchmidberger/igem-stuttgat-2020-wiki",
+    "author": "igem@ibvt.uni-stuttgatr.de",
+    "template": "advanced/"
+  }
+}
