@@ -11,8 +11,8 @@ module.exports = function(root) {
 
     // Teaminfo. Duh.
     const teaminfo = {
-        year: 2018,
-        teamName: 'Virginia'
+        year: 2020,
+        teamName: 'Stuttgart'
     };
 
     const imagetypes = '{png,jpg,gif,svg}';
@@ -64,7 +64,7 @@ module.exports = function(root) {
         files: [path.join(build, `images/**/*.${imagetypes}`), path.join(build, `fonts/**/*.${fonttypes}`)]
     };
 
-    var secure = ''; // Change to 's' to enable secure html
+    var secure = 's'; // Change to 's' to enable secure html
     // URLs used by realtive2absolute
     var urls = {
         standard: `http${secure}://${teaminfo.year}.igem.org/Team:${teaminfo.teamName}`,
@@ -73,6 +73,8 @@ module.exports = function(root) {
         css: `http${secure}://${teaminfo.year}.igem.org/Template:${teaminfo.teamName}/css`,
         files: `http${secure}://${teaminfo.year}.igem.org/File:T--${teaminfo.teamName}--{0}`,
     };
+
+    console.log(urls)
 
     // Suffixes used by relative2absolute
     var suffixes = {

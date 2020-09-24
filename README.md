@@ -1,5 +1,9 @@
 # Team:Stuttgart 2020 Wiki
 
+## Techsetup
+
+Add username and pw in login.js in node_module igemwiki-api/lib/login.
+
 ## 1 Description
 
 Contains all webcontent that will be found on https://github.com/FabioSchmidberger/igem-stuttgat-2020-wiki

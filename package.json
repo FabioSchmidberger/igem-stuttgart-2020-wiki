@@ -1,13 +1,14 @@
 {
-    "name": "virginia-2018-wiki",
+    "name": "stuttgart-2020-wiki",
     "version": "0.5.0",
-    "description": "Contains all webcontent that will be found on http://2018.igem.org/Team:Virginia.",
+    "description": "Contains all webcontent that will be found on https://2020.igem.org/Team:Stuttgart.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "serve": "gulp serve",
+        "publish": "gulp publish -l"
     },
     "keywords": [],
-    "author": "igem@ibvt.uni-stuttgatr.de",
+    "author": "igem@ibvt.uni-stuttgart.de",
     "license": "MIT",
     "dependencies": {
         "generator-igemwiki": "git+https://github.com/Virginia-iGEM/generator-igemwiki.git",
@@ -26,7 +27,7 @@
         "url": "git+https://github.com/Mantissa-23/VGEM-2018.git"
     },
     "bugs": {
-        "url": "https://github.com/Mantissa-23/VGEM-2018/issues"
+        "url": "https://github.com/FabioSchmidberger/igem-stuttgat-2020-wiki/issues"
     },
-    "homepage": "https://github.com/Mantissa-23/VGEM-2018#readme"
+    "homepage": "https://github.com/FabioSchmidberger/igem-stuttgat-2020-wiki"
 }
